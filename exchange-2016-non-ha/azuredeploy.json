@@ -52,7 +52,7 @@
         "nsgName": "[tolower(concat('ng', resourceGroup().name))]",
         "nsgID": "[resourceId('Microsoft.Network/networkSecurityGroups',variables('nsgName'))]",
 		"exchangeInstallerPath": "InstallerExchange",
-        "exchangeISOUri": "https://download.microsoft.com/download/6/4/8/648EB83C-00F9-49B2-806D-E46033DA4AE6/ExchangeServer2016-CU1.iso",
+        "exchangeISOUri": "https://download.microsoft.com/download/4/C/E/4CE65F66-CE89-4F4D-96C0-A97E08FA1693/ExchangeServer2016-x64-cu3.iso",
         "modulesExchangeISODownload": "CSDownloadISO.ps1",
         "modulesUrlExchangeISODownload": "[concat(variables('modulesPath'),variables('modulesExchangeISODownload'))]"
     },
