@@ -1,4 +1,4 @@
-# EXCHANGE 2016 CU1 INSTALLATION
+# EXCHANGE 2016 CU3 INSTALLATION
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzureStack-QuickStart-Templates%2Fdevelop%2Fexchange-2016-non-ha%2Fazuredeploy.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
@@ -34,7 +34,7 @@ The following resources are deployed as part of the solution
 
 <b>DESCRIPTION</b>
 
-This template deploys requested number of VMs with public IP address in same virtual network. DSC installs Exchange 2016 Cumulative Update 1.
+This template deploys requested number of VMs with public IP address in same virtual network. DSC installs Exchange 2016 Cumulative Update 3.
 
 Please make sure to user unique resource group name for each deployment to avoid deployment failures due to name collisions of resources.
 
